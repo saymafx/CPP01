@@ -1,12 +1,11 @@
-NAME = ZombieHorde
+NAME = Plaint
 
 CC = c++
 
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
 SRC = main.cpp \
-	Zombie.cpp \
-	ZombieHorde.cpp \
+	Harl.cpp \
 
 OBJ = $(SRC:%.cpp=%.o)
 
